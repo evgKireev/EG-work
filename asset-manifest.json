@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/EG-work/static/css/main.853d1bc1.css",
+    "main.js": "/EG-work/static/js/main.067c2d31.js",
+    "static/media/accord.png": "/EG-work/static/media/accord.1b38dcd6295ef70e4c10.png",
+    "static/media/Rectangle 27.png": "/EG-work/static/media/Rectangle 27.012b84f400238022bacf.png",
+    "static/media/1.png": "/EG-work/static/media/1.bba67b91457d39314ff8.png",
+    "static/media/Rectangle 28.png": "/EG-work/static/media/Rectangle 28.199fe89cee106a1e6c2c.png",
+    "static/media/Rectangle 35.png": "/EG-work/static/media/Rectangle 35.9a38edf6bfcb5bd7bc1e.png",
+    "static/media/Rectangle 37.png": "/EG-work/static/media/Rectangle 37.e9c3c26caac980570dc4.png",
+    "static/media/Rectangle 35 (3).png": "/EG-work/static/media/Rectangle 35 (3).27b45f521c709b0c40d2.png",
+    "static/media/Rectangle 33.png": "/EG-work/static/media/Rectangle 33.63648e438d0e59b6a4fb.png",
+    "static/media/Rectangle 35 (6).png": "/EG-work/static/media/Rectangle 35 (6).e6dcec4b4bfdc0f54a04.png",
+    "static/media/Rectangle 35 (1).png": "/EG-work/static/media/Rectangle 35 (1).f5b132ad3cc0b404cd3a.png",
+    "static/media/Rectangle 30.png": "/EG-work/static/media/Rectangle 30.8bdde2c15b99e310db3a.png",
+    "static/media/Rectangle 35 (5).png": "/EG-work/static/media/Rectangle 35 (5).0b16b9a40257ec477533.png",
+    "static/media/Rectangle 34.png": "/EG-work/static/media/Rectangle 34.1261acd2dd0e0fd54e52.png",
+    "static/media/Rectangle 35 (4).png": "/EG-work/static/media/Rectangle 35 (4).d732798d7d93beb6ad82.png",
+    "static/media/Rectangle 31.png": "/EG-work/static/media/Rectangle 31.19368328cf22873c5f44.png",
+    "static/media/Rectangle 35 (2).png": "/EG-work/static/media/Rectangle 35 (2).19586bee7375170d25b6.png",
+    "static/media/Rectangle 29.png": "/EG-work/static/media/Rectangle 29.a03c9c7f61522e6c85ee.png",
+    "static/media/Rectangle 32.png": "/EG-work/static/media/Rectangle 32.cd6571a55125ce433122.png",
+    "static/media/Vectorleft.png": "/EG-work/static/media/Vectorleft.8e0caa5e529174629b9c.png",
+    "static/media/Vectorright.png": "/EG-work/static/media/Vectorright.03ad06faa86b24baddb9.png",
+    "index.html": "/EG-work/index.html",
+    "static/media/Vector2.svg": "/EG-work/static/media/Vector2.ef1b06c8585be93ce075.svg",
+    "main.853d1bc1.css.map": "/EG-work/static/css/main.853d1bc1.css.map",
+    "main.067c2d31.js.map": "/EG-work/static/js/main.067c2d31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.853d1bc1.css",
+    "static/js/main.067c2d31.js"
+  ]
+}
