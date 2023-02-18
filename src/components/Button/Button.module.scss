@@ -1,0 +1,43 @@
+@import '../../scss/vars';
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+  animation: time 1.5s 0s linear;
+}
+@keyframes time {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  border: none;
+  height: 60px;
+  width: 240px;
+  border-radius: 40px;
+  background-color: $acsent;
+  padding: 16px 20px 17px 28px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  transition: all 0.5s;
+  &:hover {
+    opacity: 90%;
+    transition: all 0.5s;
+  }
+}

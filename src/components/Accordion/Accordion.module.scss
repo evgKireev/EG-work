@@ -1,0 +1,310 @@
+@import '../../scss/vars';
+.wrap {
+  display: flex;
+}
+
+.accordionWrapper {
+  position: relative;
+  width: 85px;
+  height: 682px;
+  background-color: $acsent;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.accordionWrapperImg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  justify-content: end;
+  flex-direction: column-reverse;
+  height: 100%;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 25px 20px 18px;
+}
+.img {
+  display: none;
+  overflow: hidden;
+  img {
+    object-fit: cover;
+    width: 995px;
+    height: 681px;
+    animation: logo 500ms 0s linear;
+  }
+}
+
+.AcNumber {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  color: #fff;
+}
+.AcTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #fff;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.imgbg {
+  background-color: rgba(18, 18, 18, 0.8);
+  backdrop-filter: blur(20px);
+  width: 364px;
+  height: 681px;
+  margin-top: -680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-bottom: 50px;
+  padding-left: 42px;
+  padding-right: 75px;
+}
+
+.imgTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.imgText {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 27px;
+}
+
+.imgBtn {
+  cursor: pointer;
+  color: #fff;
+  border: 2px solid #ffff;
+  border-left: 7px solid #fff;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+
+.imgNumber {
+  font-weight: 600;
+  font-size: 380px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: rgba(255, 255, 255, 0.04);
+  position: relative;
+  right: 181px;
+  top: -21px;
+}
+
+.active {
+  display: block;
+}
+
+.activeSlide {
+  display: block;
+  transition: all 0.9s;
+}
+
+@media (max-width: 1500px) {
+  .wrap {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .accordionWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    display: block;
+    width: 100%;
+    height: 85px;
+    background-color: $acsent;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .accordionWrapperImg {
+    position: absolute;
+    width: 100%;
+    img {
+      width: 100%;
+      height: 85px;
+    }
+  }
+
+  .content {
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    gap: 35px;
+    padding: 27px 40px 26px 40px;
+  }
+  .img {
+    display: none;
+    height: 681px;
+    img {
+      width: 100%;
+      height: 681px;
+    }
+  }
+
+  .AcTitle {
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+  }
+
+  .imgbg {
+    position: relative;
+    width: 100%;
+    height: 192px;
+    margin-top: -192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-bottom: 0;
+    padding-top: 25px;
+    padding-left: 42px;
+    padding-right: 75px;
+  }
+
+  .imgTitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+
+  .imgText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 27px;
+  }
+
+  .imgBtn {
+    cursor: pointer;
+    color: #fff;
+    border: 2px solid #ffff;
+    border-left: 7px solid #fff;
+    background-color: transparent;
+    padding: 10px 20px;
+    width: 200px;
+  }
+
+  .imgNumber {
+    font-weight: 600;
+    font-size: 152px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 0.04);
+    position: absolute;
+    right: 3px;
+    top: -12px;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .activeSlide {
+    display: block;
+    transition: all 0.9s;
+  }
+}
+
+@media (max-width: 980px) {
+  .img {
+    height: 460px;
+    img {
+      height: 460px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    width: 100%;
+  }
+  .Accordion_content__5LU2x {
+    gap: 12px;
+  }
+  .imgTitle {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .imgText {
+    font-size: 16px;
+    margin-bottom: 19px;
+  }
+
+  .imgBtn {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 660px) {
+  .img {
+    height: 376px;
+    img {
+      width: 100%;
+      height: 376px;
+    }
+  }
+  .imgBtn {
+    height: 158px;
+    padding: 10px 20px;
+    width: 200px;
+    height: 46px;
+  }
+  .AcNumber {
+    font-size: 24px;
+  }
+  .AcTitle {
+    font-size: 18px;
+  }
+
+  .imgTitle {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .imgText {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .imgBtn {
+    padding: 8px 26px;
+    width: 200px;
+    height: 50px;
+  }
+  .imgNumber {
+    font-size: 80px;
+    right: 3px;
+    top: 0;
+  }
+
+  .content {
+    height: 100%;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 47px 22px 20px;
+  }
+  .imgbg {
+    padding-left: 20px;
+    height: 158px;
+    margin-top: -158px;
+  }
+}

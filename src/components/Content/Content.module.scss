@@ -1,0 +1,63 @@
+@import '../../scss/vars';
+
+.main {
+  text-align: center;
+  animation: title 1.2s 0s linear;
+  transform: translateX(0);
+}
+
+.mainTitle {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 104%;
+  text-transform: uppercase;
+  color: $acsent;
+  opacity: 0.39;
+  margin-bottom: 8px;
+}
+
+.mainText {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 32px;
+  width: 423px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+  opacity: 100%;
+}
+
+@keyframes title {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0.39;
+  }
+}
+
+@media (max-width: 960px) {
+  .mainTitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .mainText {
+    width: 286px;
+    font-size: 16px;
+    line-height: 150%;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 390px) {
+  .mainTitle {
+    margin-bottom: 16px;
+  }
+}

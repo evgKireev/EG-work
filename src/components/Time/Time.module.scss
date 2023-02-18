@@ -1,0 +1,76 @@
+@import '../../scss/vars';
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 5px;
+  margin-bottom: 72px;
+  animation: time 1.4s 0s linear;
+  transform: translateX(0);
+  span {
+    font-weight: 600;
+    font-size: 72px;
+    color: $acsent;
+    line-height: 100%;
+  }
+}
+@keyframes time {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+}
+
+.number {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 100%;
+  color: $acsent;
+}
+
+.text {
+  background-image: url('../../assets/Vector.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffff;
+  width: 132px;
+  height: 54px;
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    margin-bottom: 40px;
+    span {
+      font-size: 36px;
+    }
+  }
+  .number {
+    font-size: 36px;
+    line-height: 100%;
+  }
+  .text {
+    background-image: url('../../assets/Vector2.svg');
+    font-size: 12px;
+    width: 64px;
+    height: 40px;
+  }
+}
